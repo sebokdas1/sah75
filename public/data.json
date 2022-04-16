@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs4eF9QV-3NhlZqEcz-GEwQZjoAmPoz_lnvg&usqp=CAU",
+        "name": "Cricket",
+        "description": "World's number one all-rounder. Usually I take part in domestic leagues of all countries. You can buy me your cricket needs."
+    },
+    {
+        "id": 2,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR90RO5WKul0ZYsp7z1PlD51Ke7hYIL-2k3Cg&usqp=CAU",
+        "name": "Chingdi",
+        "description": "You can buy delicious and unadulterated shrimp from me at very low prices."
+    },
+    {
+        "id": 3,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_HUwN0A9g0JZ0K1aG-8rLEWbzuNplxF2ArQ&usqp=CAU",
+        "name": "Ornaments",
+        "description": "You can buy unadulterated ornaments from me at very low prices. We place orders online."
+    }
+]
