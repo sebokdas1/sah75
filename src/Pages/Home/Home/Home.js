@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_m17mVaKtx67roUNVXaFHe_X4QnCmORXjKQ&usqp=CAU" alt="" />
+            <Banner></Banner>
+            <Services></Services>
         </div>
     );
 };

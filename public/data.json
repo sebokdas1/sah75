@@ -8,13 +8,13 @@
     {
         "id": 2,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIA6NovLwK2YwZaMyZs2HnpUPxErm-3N9Og&usqp=CAU",
-        "name": "Advertige",
-        "description": "You can get well product advertige from me at very low prices."
+        "name": "Advertising",
+        "description": "You can get well product advertigement from me at very low prices. Introduce your product good and useable in public."
     },
     {
         "id": 3,
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyiZq3qypaqPFoRCauUHbpTMCj_Ta4XOlkw&usqp=CAU",
         "name": "Actor",
-        "description": "I provide acting service in the bangla movie and short film."
+        "description": "I provide acting service in the bangla movie and short film. You can book me for your amazing movie or shortfilm"
     }
 ]
