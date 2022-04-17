@@ -8,8 +8,7 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 const Login = () => {
     const [
         signInWithEmailAndPassword,
-        user,
-        error
+        user
     ] = useSignInWithEmailAndPassword(auth);
 
 
@@ -31,13 +30,7 @@ const Login = () => {
         navigate('/register')
     }
 
-    let errorElement;
-    if (error) {
-        errorElement = <div>
-            <p className='text-danger'>Something went wrong please try again</p>
-        </div>
 
-    }
     return (
         <div className='container w-50 mx-auto'>
             <h2 className='text-info text-center mt-2'>Please login</h2>
@@ -54,7 +47,7 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
-            {errorElement}
+
             <p>New to SAH75? <Link to={'/register'} onClick={navigateToRegister} className='text-primary pe-auto text-decoration-none'>Please Register</Link></p>
             <SocialLogin />
         </div>

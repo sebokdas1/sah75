@@ -19,15 +19,16 @@ const Register = () => {
         navigate('/login');
     }
 
-    if (user) {
-        navigate('/home');
-    }
+
 
     const handleRegister = event => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
         createUserWithEmailAndPassword(email, password)
+    }
+    if (user) {
+        navigate('/home');
     }
     return (
         <div className='container w-50 mx-auto'>
