@@ -10,7 +10,7 @@ const SocialLogin = () => {
     let errorElement;
     if (error) {
         errorElement = <div>
-            <p className='text-danger'>Error: {error?.message}</p>
+            <p className='text-danger'>{error?.message}</p>
         </div>
     }
 

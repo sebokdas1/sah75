@@ -7,7 +7,6 @@ import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
-import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import NotFound from './Pages/Shared/NotFound/NotFound';
@@ -20,7 +19,6 @@ function App() {
         <Route path='/' element={<Home></Home>} />
         <Route path='/home' element={<Home></Home>} />
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='/service/:serviceid' element={<ServiceDetail />} />
         <Route path='/about' element={<About></About>} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
